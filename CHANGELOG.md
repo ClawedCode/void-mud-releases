@@ -2,6 +2,16 @@
 
 Spoiler-safe release notes from the VOID MUD. Entries are written for players and intentionally omit secret locations, puzzles, and rewards.
 
+## v0.11.1 — 2025-12-13
+- Added swipe gesture navigation on mobile: swipe left/right to move between Game, Map, Team, Logs, and Gear tabs.
+
+## v0.11.0 — 2025-12-13
+- New bio-sample unlock leads to a hidden vault encounter with a new boss (details redacted to avoid spoilers).
+- Fixed iOS Safari audio by unlocking the AudioContext on user gesture for reliable sound.
+- Room descriptions now surface in the game log when moving for better immersion.
+- Enemy encounter warnings on room entry call out blockers (e.g., "Spore Warden blocks your path!").
+- New lore notes from Dr. Chen expand the Patient Zero backstory without revealing secret steps.
+
 ## v0.10.0 — 2025-12-13
 - Mobile layout now keeps the command input visible via flex-based positioning.
 - Two-column room header splits room info (left) and navigation grid (right).
