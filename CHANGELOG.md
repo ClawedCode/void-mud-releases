@@ -2,12 +2,26 @@
 
 Spoiler-safe release notes from the VOID MUD. Entries are written for players and intentionally omit secret locations, puzzles, and rewards.
 
+## v0.10.0 — 2025-12-13
+- Mobile layout now keeps the command input visible via flex-based positioning.
+- Two-column room header splits room info (left) and navigation grid (right).
+- Room descriptions show in the game log when moving or spawning for better immersion.
+- Hostile entry warnings call out blockers (e.g., "⚔ Spore Warden blocks your path!").
+- Room card is compacted to title, items, and enemy HP bar only.
+- Removed the redundant equipment widget; player stats already shows gear.
+- Weapon equip buttons display damage ranges without hover.
+- Auto-consume toggle now labeled clearly as "AUTO USE ON/OFF."
+
+## v0.9.5 — 2025-12-13
+- Room descriptions now appear in the game log upon entry or spawn, reducing on-card clutter.
+
 ## v0.9.2 — 2025-12-13
 - Added mobile chat filters and log collection to improve moderation tools.
 - Improved text wrapping for chat and logs on mobile devices.
 
 ## v0.9.1 — 2025-12-13
-- Added haptic feedback for combat actions on supported devices.
+- Added haptic feedback for combat actions with tuned timings: Attack 50ms; Surge 80–40–120ms; Evade 25ms; Scan 15ms.
+- Platform support: Android (Chrome/Firefox/Edge/WebView) supported; iOS Safari unsupported (platform limitation); desktop browsers unsupported (no vibration hardware).
 
 ## v0.9.0 — 2025-12-13
 - Introduced a mobile-friendly interface with tab navigation across major views.
