@@ -2,6 +2,11 @@
 
 Spoiler-safe release notes from the VOID MUD. Entries are written for players and intentionally omit secret locations, puzzles, and rewards.
 
+## v0.11.2 — 2025-12-13
+- Enriched mobile tab icons, including a terminal-style Game tab.
+- Fixed a rare reconnect race that could drop a player session.
+- Unified version metadata so client and server stay aligned for deploys.
+
 ## v0.11.1 — 2025-12-13
 - Added swipe gesture navigation on mobile: swipe left/right to move between Game, Map, Team, Logs, and Gear tabs.
 
