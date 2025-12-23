@@ -2,6 +2,10 @@
 
 Spoiler-safe release notes from the VOID MUD. Entries are written for players and intentionally omit secret locations, puzzles, and rewards.
 
+## v0.11.3 — 2025-12-22
+- Removed 24-hour expiry on saved games; sessions can now be resumed indefinitely.
+- Added version-based migration system to upgrade old saves across game updates.
+
 ## v0.11.2 — 2025-12-13
 - Enriched mobile tab icons, including a terminal-style Game tab.
 - Fixed a rare reconnect race that could drop a player session.
