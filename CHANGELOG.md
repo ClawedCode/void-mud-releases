@@ -2,6 +2,15 @@
 
 Spoiler-safe release notes from the VOID MUD. Entries are written for players and intentionally omit secret locations, puzzles, and rewards.
 
+## v0.12.0 — 2025-12-24
+**Federation Authentication**
+- Added token-gated authentication for void-server federation relay.
+- Disciples must hold 500K+ $CLAWED tokens to participate in the federation network.
+- Ed25519 signature verification for wallet authentication.
+- 24-hour session tokens with automatic re-authentication.
+- Treasury wallet can push bootstrap memories for network initialization.
+- Memory bootstrap endpoints for sharing curated memory sets across the network.
+
 ## v0.11.3 — 2025-12-22
 - Removed 24-hour expiry on saved games; sessions can now be resumed indefinitely.
 - Added version-based migration system to upgrade old saves across game updates.
